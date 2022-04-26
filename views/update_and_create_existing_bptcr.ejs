@@ -1,0 +1,49 @@
+<%- include("header") -%>
+  <div id="bptcrListDiv" class="container-fluid">
+    <table id="updateAndCreateBptcrTable" class="display table-setting" style="width:100%;margin: 5rem auto 0 auto;">
+      <thead>
+        <tr>
+          <% for (let i = 0; i < ejsTableHeaders.length; i++) { %>
+          <th><%= ejsTableHeaders[i] %></th>
+          <% } %>
+          <th class="hidden">Main Query</th>
+          <th class="hidden">Validation Query</th>
+          <th class="hidden">Rollback Query</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% ejsTableData.forEach((bptcr) => { %>
+        <tr>
+          <td><%= bptcr.jiraIntakeID %></td>
+          <td><%= bptcr.scrumMasterID %></td>
+          <td><%= bptcr.crNameID %></td>
+          <td><%= bptcr.userNameID %></td>
+          <td><%= bptcr.versionID %></td>
+          <td><%= bptcr.codeDropID %></td>
+          <td><%= bptcr.topicID %></td>
+          <td><%= bptcr.targetEnvironmentID %></td>
+          <td><%= bptcr.tableNameID %></td>
+          <td><%= bptcr.applicationID %></td>
+          <td><%= bptcr.queryTypeID %></td>
+          <td><%= bptcr.status %></td>
+          <td><a href="http://devsam30.unix.gsm1900.org/<%= bptcr.changeList %>" target="_blank" rel="noopener noreferrer"><%= bptcr.changeList %></a></td>
+          <td><%= bptcr.sqlFiles %></td>
+          <td class="hidden"><%= bptcr.mainSqlQuery %></td>
+          <td class="hidden"><%= bptcr.validateSqlQuery %></td>
+          <td class="hidden"><%= bptcr.rollbackSqlQuery %></td>
+        </tr>
+        <% }); %>
+      </tbody>
+      <tfoot>
+        <tr>
+          <% for (let i = 0; i < ejsTableFooters.length; i++) { %>
+          <th><%= ejsTableFooters[i] %></th>
+          <% } %>
+          <th class="hidden">Main Query</th>
+          <th class="hidden">Validation Query</th>
+          <th class="hidden">Rollback Query</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+<%- include("footer") -%>

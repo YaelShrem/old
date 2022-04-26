@@ -1,0 +1,31 @@
+<div id="cardDiv" class="container-fluid main-cards-container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="btn card base-container-card "  onclick="openNewBptcrForm()">
+        <div class="card-body">
+          <h5 class="card-title">Create</h5>
+          <hr>
+          <p class="card-text"><br>Create new BPTCR for your CR. CL for the BPTCR will be raised automatically.<br> <br>  </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="btn card base-container-card style" onclick="openOnHoldBptcrForm()">
+        <div class="card-body"> 
+          <h5 class="card-title">Update and Create</h5>
+          <hr>
+          <p class="card-text">Load existing BPTCRs from PlaceHolder,OnOff and SecurityDB topics and commit them in respective topics when required. Updating existing BPTCR is not allowed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="btn card base-container-card" onclick="openExistingBptcr()">
+        <div class="card-body">
+          <h5 class="card-title">View BPTCRs</h5>
+          <hr>
+          <p class="card-text">View all your BPTCRs raised from this platform. Export them to excel and mail them. Multiple filtering features are present for finding your BPTCR quickly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,386 @@
+[
+    {
+        "jiraIntake": "BSWMDBS2-39854",
+        "crNumber": "PR212665",
+        "crDescription": "CMMC Compliance - Privacy & Security Notice",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1",
+        "scrumMaster": "Amit Paropkari"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-39852",
+        "crNumber": "PR212665",
+        "crDescription": "CMMC Compliance - Account Access Hardening Plan - Round 2 - Part #2",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1,2",
+        "scrumMaster": "AbhijitSingh Gautam"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-44569",
+        "crNumber": "PR211865",
+        "crDescription": "DASH Ship to Order - Dealer Code",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1",
+        "scrumMaster": "Shikha Gadodiya"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-41856",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Support Subscriber ID for NPE Provisioning - Round 2",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Sudhanshu Singh"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-41789",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Support New BPT Requests for Country Codes and SIC Codes",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1",
+        "scrumMaster": "Amit Paropkari"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-46545",
+        "crNumber": "PR213140",
+        "crDescription": "TfB-Dialpad-Display warning message on CSM UI when IOT BAN is Cancelled",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1",
+        "scrumMaster": "Swati Raghuvanshi"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-46542",
+        "crNumber": "PR213140",
+        "crDescription": "TfB-Dialpad-Display warning message on CSM UI when IOT BAN is Suspended",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1",
+        "scrumMaster": "Swati Raghuvanshi"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-44510",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Create statement for converted AR balance JE \u2013 Samson activities between ACE Commit & Unlock",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Chandrahas Koyari"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-42024",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - BAN lock capability for MVP Conversion",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1,2,2.5",
+        "scrumMaster": "Swati Raghuvanshi"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-42018",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions-  Initiate Rating of Converted subscriber accounts Usage after BAN Unlock",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#1",
+        "scrumMaster": "Poorva Markale"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-46540",
+        "crNumber": "PR213140",
+        "crDescription": "TfB-Dialpad-Display IOT Account Classification on CSM UI",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#1",
+        "scrumMaster": "Prajakta Mohite"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-43252",
+        "crNumber": "PR212618",
+        "crDescription": "IOT Sync up - Trigger Samson DEEP.IO events when Line_Account level SOC from list of SOCs is added_removed - Round 2",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "Prajakta Mohite"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-47132",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Handling Port Request to Support Network Update for Converted BAN",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2.5 to QAT",
+        "scrumMaster": "Poorva Markale"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-47136",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Updating E911 Address for Converted Subscribers",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-47185",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - BAN and Line level indicators for Samson APIs, Back-End, Front-End",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Abhijeet Jadhav"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-47545",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - BPT Request for LAST_TRX_CODE",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-43815",
+        "crNumber": "PR211948",
+        "crDescription": "TFB Digital Transformation - Ban and line level Data extract support",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "N/A",
+        "scrumMaster": "Abhijeet Jadhav"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-47142",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversion - Assignment of CCPC Codes Between Commit and Unlock",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2.5 to QAT",
+        "scrumMaster": "Chandrahas Koyari"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-48089",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Enhance DEEP event to include BAN details",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Sudhanshu Singh"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-43487",
+        "crNumber": "PR212524",
+        "crDescription": "CIP - Equipment charges error codes - Samson",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Abhijeet Jadhav"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-43037",
+        "crNumber": "PR211948",
+        "crDescription": "TFB - Ban Level and MSISDN level Events From Billing (old BSWMDBS2-30004)",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Prajakta Mohite"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-36549",
+        "crNumber": "PR211948",
+        "crDescription": "TFB - BAN and MSISDN level on demand events when ODS data not available - Round 3",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Prajakta Mohite"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-39472",
+        "crNumber": "PR211948",
+        "crDescription": "TFB - Support Samson SOC validation & Returning Error Codes and msgs to TBC",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Prajakta Mohite"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-41834",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Provision Converted BANs via NPE - CSM Part",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "AbhijitSingh Gautam"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-48274",
+        "crNumber": "PR213194",
+        "crDescription": "MIG_03B - Samson Feature 52825 Research and Turn On MIG_03 features",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "N/A",
+        "scrumMaster": "Prajakta Mohite"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-49432",
+        "crNumber": "PR210968",
+        "crDescription": "HINT CX - Update CSM Verbiage",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Shikha Gupta"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-48416",
+        "crNumber": "PR213151",
+        "crDescription": "IOT-B2B - Bundled Price Plan taxation",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-47299",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Provision Converted BAN via NPE - SC Part",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "Chandrahas Koyari"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-47678",
+        "crNumber": "PR212524",
+        "crDescription": "CIP - Equipment charges - Charge Type Mapping",
+        "commitVersion": "2103 Mar",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "Abhijeet Jadhav"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-49599",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - DPS to send backout transactions through Digital Chargeback API",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "N/A",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-50368",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Update CHUB PAH Indication Values in Samson",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2 to QAT",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-48179",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Support for Phase In of Financial Activities",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-49640",
+        "crNumber": "PR212735",
+        "crDescription": "DPS Payments Token Updates in Samson for Converted Accounts",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2 to QAT",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-50944",
+        "crNumber": "PR212735",
+        "crDescription": "Address Validation Executable for Samson",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "Shikha Gadodiya"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-50628",
+        "crNumber": "PR212868",
+        "crDescription": "IOT- B2B - AccountAddressChange event with address details for all the flows",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Sudhanshu Singh"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-39855",
+        "crNumber": "PR212665",
+        "crDescription": "CMMC Compliance - Token Mechanism - TLS 1.2",
+        "commitVersion": "2105 May",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Shikha Gadodiya"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-49830",
+        "crNumber": "PR212735",
+        "crDescription": "Enable Data Pass and Data SOC provisioning via Switch Control to NPE",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "Poorva Markale"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-52679",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - BPT CR for MEMO_TYPE",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Sudhanshu Singh"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-48418",
+        "crNumber": "PR213151",
+        "crDescription": "Tax Exemption handling for IOT customers-new flow",
+        "commitVersion": "2105 May",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Abhijeet Jadhav"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-44627",
+        "crNumber": "PR213151",
+        "crDescription": "Samson - Deposit Support for IOT accounts",
+        "commitVersion": "2105 May",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Abhijeet Jadhav"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-43744",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Support Rate Plan Change and BAN2BAN in NPE",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#1, 2, 2.5",
+        "scrumMaster": "Shikha Gupta"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-49598",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Support Digital Billing FTE team for New API Development",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "N/A",
+        "scrumMaster": "Vinay Majithia"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-52437",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Tax Types for Charges and Adjustments",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Shikha Gupta"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-12446",
+        "crNumber": "PRXXXXXX",
+        "crDescription": "PowerBuilder upgrade to align with the Oracle DB version",
+        "commitVersion": "2105 May",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Shikha Gupta"
+    },
+    {
+        "jiraIntake": "BSWMBMP-317",
+        "crNumber": "PR213156",
+        "crDescription": "SyncUP Tracker-MVP-New Account Line Subtype",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2",
+        "scrumMaster": "Abhijeet Jadhav"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-5373",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Parameters for Switch Control Provisioning to NPE for Converted Subscriber Accounts",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2.5",
+        "scrumMaster": "AbhijitSingh Gautam"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-54362",
+        "crNumber": "PR212735",
+        "crDescription": "Streaming Conversions - Recalculate Taxes for Converted Unbilled Pending Charges",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2 to QAT",
+        "scrumMaster": "Shivani Khedikar"
+    },
+    {
+        "jiraIntake": "BSWMDBS2-54362",
+        "crNumber": "PR212735",
+        "crDescription": "Dhruv Chaudhary",
+        "commitVersion": "2104 Apr",
+        "codeDrop": "CD#2 to QAT",
+        "scrumMaster": "Shivani Khedikar"
+    }
+]

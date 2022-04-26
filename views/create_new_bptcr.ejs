@@ -1,0 +1,44 @@
+<%- include("header") -%>
+<form id="newBptcrFormID" name="newBptcrFormID" action="/create_sql_scripts" method="post">
+  <div id="createNewBptcrDiv" class="main-form-container">
+    <div class="row">
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <span class="base-span-styles">Basic information</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <% for (let i = 0; i < ejsData.length;) { %>
+      <div class="row g-2">
+        <% for (let j = 0; j < 2 && i < ejsData.length; j++,i++) { %>
+        <% if (!ejsData[i].id.localeCompare("crNameID")) { j++; } %>
+        <div class="col-md">
+          <div class="form-floating">
+            <input id="<%= ejsData[i].id %>" type="text" class="form-control main-form-div" name="<%= ejsData[i].id %>" list="<%= ejsData[i].list %>" placeholder="<%= ejsData[i].label %>" required>
+            <label for="<%= ejsData[i].id %>"><%= ejsData[i].label %></label>
+            <datalist id="<%= ejsData[i].list %>">
+              <% ejsData[i].data.forEach(function(eachOption) { %>
+              <option value="<%= eachOption %>"><%= eachOption %></option>
+              <% }) %>
+            </datalist>
+          </div>
+        </div>
+        <% } %>
+      </div>
+      <% } %>
+    </div>
+    <div class="row">
+      <div class="row g-2">
+        <div class="col-md-6">
+          <div class="d-grid">
+            <button type="submit" class="form-control btn-create-view-bptcr">Create sql query scripts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<%- include("footer") -%>

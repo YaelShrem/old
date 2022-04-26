@@ -1,0 +1,50 @@
+<%- include("header") -%>
+<form id="createSqlValidateFormID" action="/create_sql_scripts_validated" method="post">
+  <div class="create-sql-query-container">
+    <% for (let i = 0; i < ejsSqlQueryData.length; i++) { %>
+    <div class="row">
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <span class="base-span-styles main-form-div"><%= ejsSqlQueryData[i].header %></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row g-2">
+        <textarea  id="<%= ejsSqlQueryData[i].queryID %>" name="<%= ejsSqlQueryData[i].queryID %>" type="text" class="form-control txtarea-create-sql-query form-control-bf <%= ejsSqlQueryData[i].invalid %>" onkeyup="textAreaAdjust(this)" required><%- ejsSqlQueryData[i].query %></textarea>
+        <div class="invalid-feedback text-break" <%= ejsSqlQueryData[i].hidden %>>
+          <%- ejsSqlQueryData[i].error %>
+        </div>
+      </div>
+    </div>
+    <% if(i == 2) { %>
+    <div class="row">
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <% } %>
+    <% } %>
+    <div class="row">
+      <div class="row g-2">
+        <div class="col-md-6">
+          <div class="d-grid">
+            <button id="sqlCreateBtn" type="submit" class="form-control btn-create-view-bptcr">
+              <div class="d-flex justify-content-center">
+                <span class="spinner-border text-success" role="status" aria-hidden="true" hidden></span>
+              </div>
+              Verify Sql Queries & Submit Swarm Request
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<%- include("footer") -%>

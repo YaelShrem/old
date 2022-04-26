@@ -1,0 +1,74 @@
+<%- include("header") -%>
+<form id="updateAndCreateSqlScriptsFormID" action="/update_and_create_sql_scripts_validated" method="post">
+  <div class="create-sql-query-container">
+    <div class="row">
+      <div class="col-md">
+        <div class="form-floating padding-sm">
+          <span class="base-span-styles">Basic information</span>
+        </div>
+      </div>
+    </div>
+    <div class="row g-3">
+      <div class="col-md">
+        <div class="form-floating">
+          <input id="codeDropID" type="text" class="form-control main-form-div" name="codeDropID" list="codeDropList" placeholder="codeDrop" required>
+          <label for="codeDropID">Code Drop</label>
+          <datalist id="codeDropList">
+            <% ejsCodeDrops.forEach(function(codeDrop) { %>
+            <option value="<%= codeDrop %>"><%= codeDrop %></option>
+            <% }) %>
+          </datalist>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <input id="topicID" type="text" class="form-control main-form-div" name="topicID" list="topicList" placeholder="Topic" required>
+          <label for="topicID">Topic</label>
+          <datalist id="topicList">
+            <% ejsTopics.forEach(function(topic) { %>
+            <option value="<%= topic %>"><%= topic %></option>
+            <% }) %>
+          </datalist>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <input id="targetEnvironmentID" type="text" class="form-control main-form-div" name="targetEnvironmentID" list="targetEnvironmentList" placeholder="Target Environment" required>
+          <label for="targetEnvironmentID">Target Environment</label>
+          <datalist id="targetEnvironmentList">
+            <% ejsTargetEnvironment.forEach(function(env) { %>
+            <option value="<%= env %>"><%= env %></option>
+            <% }) %>
+          </datalist>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <% for (let i = 0; i < ejsSqlQueryData.length; i++) { %>
+    <div class="row">
+      <div class="col-md">
+        <div class="form-floating  padding-sm">
+          <span class="base-span-styles main-form-div"><%= ejsSqlQueryData[i].header %></span>
+        </div>
+      </div>
+    </div>
+    <div class="row no-margin">
+      <textarea id="<%= ejsSqlQueryData[i].queryID %>" name="<%= ejsSqlQueryData[i].queryID %>" type="text" class="form-control txtarea-create-sql-query form-control-bf" onkeyup="textAreaAdjust(this)" required><%- ejsSqlQueryData[i].query %></textarea>
+    </div>
+    <br>
+    <% } %>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="d-grid">
+          <button id="sqlCreateBtn" type="submit" class="form-control btn-create-view-bptcr">
+            <div class="d-flex justify-content-center">
+              <span class="spinner-border text-success" role="status" aria-hidden="true" hidden></span>
+            </div>
+            Validate Sql Queries & Submit Swarm Request
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<%- include("footer") -%>

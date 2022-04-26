@@ -1,0 +1,26 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "This tool helps in creation and validation of BPTCRs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Wilding Camp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "edit-json-file": "^1.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^6.0.12",
+    "ssh-exec": "^2.0.0",
+    "ssh2-promise": "^0.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
